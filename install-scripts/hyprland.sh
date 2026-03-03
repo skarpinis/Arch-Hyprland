@@ -1,5 +1,5 @@
 #!/bin/bash
-# 💫 https://github.com/LinuxBeginnings 💫 #
+# 💫 https://github.com/skarpinis 💫 #
 # Main Hyprland Package #
 
 hypr_eco=(

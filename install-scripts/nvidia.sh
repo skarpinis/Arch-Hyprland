@@ -1,5 +1,5 @@
 #!/bin/bash
-# 💫 https://github.com/LinuxBeginnings 💫 #
+# 💫 https://github.com/skarpinis 💫 #
 # Nvidia Stuffs #
 
 nvidia_pkg=(

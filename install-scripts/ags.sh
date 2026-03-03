@@ -1,5 +1,5 @@
 #!/bin/bash
-# 💫 https://github.com/LinuxBeginnings 💫 #
+# 💫 https://github.com/skarpinis 💫 #
 # Aylur's GTK Shell v 1.9.0 #
 # for desktop overview
 
@@ -71,7 +71,7 @@ printf "\n%.0s" {1..1}
 printf "${INFO} Kindly Standby...cloning and compiling ${SKY_BLUE}Aylur's GTK shell $ags_tag${RESET}...\n"
 printf "\n%.0s" {1..1}
 # Clone repository with the specified tag and compile AGS
-if git clone --depth=1 https://github.com/LinuxBeginnings/ags_v1.9.0.git; then
+if git clone --depth=1 https://github.com/skarpinis/ags_v1.9.0.git; then
     cd ags_v1.9.0 || exit 1
 
     # Patch tsconfig to avoid TS5107 failure (moduleResolution=node10 deprecation)
