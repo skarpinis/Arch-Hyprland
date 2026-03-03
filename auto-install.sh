@@ -19,7 +19,7 @@ RESET="$(tput sgr0)"
 
 # Variables
 Distro="Arch-Hyprland"
-Github_URL="https://github.com/LinuxBeginnings/$Distro.git"
+Github_URL="https://github.com/skarpinis/$Distro.git"
 Distro_DIR="$HOME/$Distro"
 
 printf "\n%.0s" {1..1}
