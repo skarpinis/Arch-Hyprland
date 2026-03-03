@@ -2,7 +2,7 @@
 # 💫 https://github.com/skarpinis 💫 #
 # SDDM themes #
 
-source_theme="https://github.com/skarpinis/simple-sddm-2.git"
+source_theme="https://github.com/LinuxBeginnings/simple-sddm-2.git"
 theme_name="simple_sddm_2"
 
 ## WARNING: DO NOT EDIT BEYOND THIS LINE IF YOU DON'T KNOW WHAT YOU ARE DOING! ##
