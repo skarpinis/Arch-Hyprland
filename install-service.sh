@@ -17,10 +17,10 @@ StopWhenUnneeded=yes
 
 [Service]
 Type=oneshot
-ExecStart=/sbin/modprobe -r cros_ec_lpcs cros_ec_keyb cros_ec_typec || true
-ExecStop=/sbin/modprobe cros_ec_lpcs || true
-ExecStop=/sbin/modprobe cros_ec_keyb || true
-ExecStop=/sbin/modprobe cros_ec_typec || true
+ExecStart=/sbin/modprobe -r cros_ec_lpcs cros_ec_keyb cros_ec_typec
+ExecStop=/sbin/modprobe cros_ec_lpcs
+ExecStop=/sbin/modprobe cros_ec_keyb
+ExecStop=/sbin/modprobe cros_ec_typec
 RemainAfterExit=yes
 
 [Install]
